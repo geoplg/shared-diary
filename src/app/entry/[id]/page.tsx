@@ -5,7 +5,7 @@ import { useParams, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabaseClient";
 
 import Calendar from "react-calendar";
-import "@/styles/calendar.css";
+import "../../styles/calendar.css";
 
 import dynamic from "next/dynamic";
 import "react-quill-new/dist/quill.snow.css";
