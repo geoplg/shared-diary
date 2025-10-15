@@ -1,0 +1,7 @@
+E:
+cd projects\shared-diary\diary-app
+npm run dev
+
+http://localhost:3000
+
+database pass: *Wzsb3!zLR9NHR?

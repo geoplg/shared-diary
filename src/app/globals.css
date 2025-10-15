@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.below-navbar {
+    margin-top: 6rem;
+}
+
+/*colors*/
+.color-peach {
+    background-color: #fefae0;
+}
+
+.text-peach {
+    color: #fefae0;
+}
+
+.border-peach {
+    border-color: #fefae0;
+}
+
+.text-green {
+    color: #bbc893;
+}
+
+.color-green {
+    background-color: #e0e6b3;
+}
+
+.border-green, focus\:border-green:focus, focus\:ring-green:focus {
+    border-color: #e0e6b3;
+}
+
+.hover\:bg-green:hover {
+    background-color: #bbc893;
+}
+
+.color-brown {
+    background-attachment: #d4a373;
+}
+
+.text-brown {
+    color: #d4a373;
+}
+
+.hover\:text-brown:hover {
+    color: #bb8c5d;
+}
+
+.hover\:bg-brown:hover {
+    color: #fefae0;
+    background-color: #d4a373;
+}
+
+
+/* text area */
+.ql-container.ql-snow {
+  border: none !important;
+  outline: none !important;
+  background: transparent;
+}
+
+.ql-toolbar.ql-snow {
+  border: none !important;
+  background: transparent;
+}
+
+.ql-editor {
+  border: none !important;
+  outline: none !important;
+  padding: 0.75rem 1rem !important;
+  background: transparent;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #d4a373;
+}
+
+.ql-container.ql-snow:focus-within,
+.ql-editor:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.ql-toolbar button svg {
+  fill: #d4a373 !important;
+  stroke: #d4a373 !important;
+  transition: 0.2s ease;
+}
+
+.ql-toolbar button:hover svg,
+.ql-toolbar button.ql-active svg {
+  fill: #bb8c5d !important;
+  stroke: #bb8c5d !important;
+}
+
+.ql-toolbar .ql-picker-label,
+.ql-toolbar .ql-picker-item {
+  color: #d4a373 !important;
+}
+
+.ql-toolbar .ql-picker-item:hover,
+.ql-toolbar .ql-picker-label.ql-active {
+  color: #bb8c5d !important;
+}
+
+.prose ol[data-checked],
+.prose ol[data-list="bullet"],
+.prose ol li[data-list="bullet"] {
+  list-style-type: disc !important;
+}
+
+.prose ul,
+.prose ul li {
+  list-style-type: disc !important;
+  color: #d4a373 !important;
+}
+
+.prose ol,
+.prose ol li {
+  list-style-type: decimal !important;
+  color: #d4a373 !important;
+}
+
+.prose li {
+  margin-left: 1.5rem !important;
+  margin-bottom: 0.25rem !important;
+}
