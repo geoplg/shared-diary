@@ -103,7 +103,7 @@ export default function HomePage() {
 
         <div
           className="absolute inset-0 left-1/3 w-2/3 bg-cover bg-center"
-          style={{ backgroundImage: "url('/img1.jpg')" }}
+          style={{ backgroundImage: "url('/img3.jpg')" }}
         ></div>
 
         <div className="relative z-10 text-left px-8 py-5">
