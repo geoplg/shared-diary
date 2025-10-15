@@ -217,9 +217,9 @@ export default function HomePage() {
                       e.preventDefault();
                       handleDelete(entry.id);
                     }}
-                    disabled={status === "loading"} 
+                    disabled={status === "idle"} 
                     className={`mt-2 text-sm font-medium ${
-                      status === "loading"
+                      status === "idle"
                         ? "text-gray-400 cursor-not-allowed"
                         : "text-brown hover:text-red-700"
                     }`}
