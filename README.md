@@ -2,7 +2,7 @@
 
 A modern, responsive web application that allows groups to collaboratively document and share experiences, memories, and adventures in a beautifully organized digital journal.
 
-Note: Authentication/login functionality is not implemented yet. Project showcases core features like creating, editing, and displaying entries with text, dates, and images. No link is provided yet for privacy reasons.
+<ins>Note</ins>: Authentication/login functionality is not implemented yet. Project showcases core features like creating, editing, and displaying entries with text, dates, and images. No link is provided yet for privacy reasons.
 
 ## 🌟 Overview
 
